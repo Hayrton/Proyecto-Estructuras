@@ -1,0 +1,193 @@
+digraph g{
+node[shape=box, style=filled, color=Gray95];
+edge[color=black];
+rankdir=UD;
+{rank=min;"Matriz";"Destino: 
+Guatemala";"Destino: 
+El_Salvador";"Destino: 
+Honduras";"Destino: 
+Nicaragua";"Destino: 
+Mexico";"Destino: 
+Argentina";};
+{rank=same;"Origen: 
+Guatemala";"7720-7721
+200
+30";"7720-7722
+215
+45";"7720-7725
+100
+10";};
+{rank=same;"Origen: 
+El_Salvador";"7721-7720
+260
+75";"7721-7722
+200
+30";};
+{rank=same;"Origen: 
+Honduras";"7722-7724
+215
+45";"7722-7723
+200
+30";"7722-7725
+100
+10";};
+{rank=same;"Origen: 
+Nicaragua";"7723-7721
+200
+30";};
+{rank=same;"Origen: 
+Mexico";"7724-7722
+200
+30";};
+{rank=same;"Origen: 
+Argentina";"7725-7723
+100
+10";};
+"7721-7720
+260
+75";
+"7720-7721
+200
+30";
+"7721-7722
+200
+30";
+"7722-7723
+200
+30";
+"7721-7724
+215
+45";
+"7720-7725
+100
+10";
+"Destino: 
+Guatemala" -> "7721-7720
+260
+75";
+"Destino: 
+El_Salvador" -> "7720-7721
+200
+30";
+"Destino: 
+Honduras" -> "7721-7722
+200
+30";
+"Destino: 
+Nicaragua" -> "7722-7723
+200
+30";
+"Destino: 
+Mexico" -> "7721-7724
+215
+45";
+"Destino: 
+Argentina" -> "7720-7725
+100
+10";
+"7720-7721
+200
+30" -> "7720-7722
+215
+45"[constraint=false];
+"7720-7722
+215
+45" -> "7720-7725
+100
+10"[constraint=false];
+"7720-7725
+100
+10"[constraint=false];
+"7721-7720
+260
+75" -> "7721-7722
+200
+30"[constraint=false];
+"7721-7722
+200
+30"[constraint=false];
+"7722-7724
+215
+45" -> "7722-7723
+200
+30"[constraint=false];
+"7722-7723
+200
+30" -> "7722-7725
+100
+10"[constraint=false];
+"7722-7725
+100
+10"[constraint=false];
+"7723-7721
+200
+30"[constraint=false];
+"7724-7722
+200
+30"[constraint=false];
+"7725-7723
+100
+10"[constraint=false];
+"Origen: 
+Guatemala" -> "7720-7721
+200
+30";
+"Origen: 
+El_Salvador" -> "7721-7720
+260
+75";
+"Origen: 
+Honduras" -> "7722-7724
+215
+45";
+"Origen: 
+Nicaragua" -> "7723-7721
+200
+30";
+"Origen: 
+Mexico" -> "7724-7722
+200
+30";
+"Origen: 
+Argentina" -> "7725-7723
+100
+10";
+Matriz -> "Destino: 
+Guatemala";
+"Destino: 
+Guatemala" -> "Destino: 
+El_Salvador";
+"Destino: 
+El_Salvador" -> "Destino: 
+Honduras";
+"Destino: 
+Honduras" -> "Destino: 
+Nicaragua";
+"Destino: 
+Nicaragua" -> "Destino: 
+Mexico";
+"Destino: 
+Mexico" -> "Destino: 
+Argentina";
+"Destino: 
+Argentina";
+Matriz -> "Origen: 
+Guatemala";
+"Origen: 
+Guatemala" -> "Origen: 
+El_Salvador";
+"Origen: 
+El_Salvador" -> "Origen: 
+Honduras";
+"Origen: 
+Honduras" -> "Origen: 
+Nicaragua";
+"Origen: 
+Nicaragua" -> "Origen: 
+Mexico";
+"Origen: 
+Mexico" -> "Origen: 
+Argentina";
+"Origen: 
+Argentina";
+}

@@ -1,0 +1,26 @@
+digraph avl{
+graph[overlap=true];
+node[shape=box];
+nodo1624159795[label="fe: 1\nId: AB004\nNombre: omar\nPassword: 123\n"]
+;nodo634135630[label="fe: 0\nId: AB006\nNombre: omar\nPassword: 123\n"]
+;nodo1624159795 -> nodo634135630[label="izq"];
+nodo634135630[label="fe: 0\nId: AB002\nNombre: omar\nPassword: 123\n"]
+;nodo2043423089[label="fe: 0\nId: AB003\nNombre: omar\nPassword: 123\n"]
+;nodo634135630 -> nodo2043423089[label="izq"];
+nodo2043423089[label="fe: 0\nId: AB001\nNombre: omar\nPassword: 123\n"]
+;nodo337846971[label="fe: 0\nId: AB003\nNombre: omar\nPassword: 123\n"]
+;nodo634135630 -> nodo337846971[label="izq"];
+nodo337846971[label="fe: 0\nId: AB003\nNombre: omar\nPassword: 123\n"]
+;nodo29978914[label="fe: 1\nId: AB006\nNombre: omar\nPassword: 123\n"]
+;nodo1624159795 -> nodo29978914[label="izq"];
+nodo29978914[label="fe: 1\nId: AB006\nNombre: omar\nPassword: 123\n"]
+;nodo1172560641[label="fe: 0\nId: AB007\nNombre: omar\nPassword: 123\n"]
+;nodo29978914 -> nodo1172560641[label="izq"];
+nodo1172560641[label="fe: 0\nId: AB005\nNombre: omar\nPassword: 123\n"]
+;nodo1568470381[label="fe: 1\nId: AB007\nNombre: omar\nPassword: 123\n"]
+;nodo29978914 -> nodo1568470381[label="izq"];
+nodo1568470381[label="fe: 1\nId: AB007\nNombre: omar\nPassword: 123\n"]
+;nodo1268319113[label="fe: 0\nId: AB008\nNombre: omar\nPassword: 123\n"]
+;nodo1568470381 -> nodo1268319113[label="izq"];
+nodo1268319113[label="fe: 0\nId: AB008\nNombre: omar\nPassword: 123\n"]
+;}

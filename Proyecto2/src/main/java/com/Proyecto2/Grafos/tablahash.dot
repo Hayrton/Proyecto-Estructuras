@@ -1,0 +1,13 @@
+digraph tabla{
+node[shape=record];
+graph[rankdir=LR, ordering=out];
+vector[height=5 label="<sector0> posicion: 0 | <sector1> posicion: 1 | <sector2> posicion: 2 | <sector3> posicion: 3 | <sector4> posicion: 4 | <sector5> posicion: 5 | <sector6> posicion: 6 | <sector7> posicion: 7 | <sector8> posicion: 8 | <sector9> posicion: 9 | <sector10> posicion: 10 | <sector11> posicion: 11 | <sector12> posicion: 12 | <sector13> posicion: 13 | <sector14> posicion: 14 | <sector15> posicion: 15 | <sector16> posicion: 16 | <sector17> posicion: 17 | <sector18> posicion: 18 | <sector19> posicion: 19 | <sector20> posicion: 20 | <sector21> posicion: 21 | <sector22> posicion: 22 | <sector23> posicion: 23 | <sector24> posicion: 24 | <sector25> posicion: 25 | <sector26> posicion: 26 | <sector27> posicion: 27 | <sector28> posicion: 28 | <sector29> posicion: 29 | <sector30> posicion: 30 | <sector31> posicion: 31 | <sector32> posicion: 32 | <sector33> posicion: 33 | <sector34> posicion: 34 | <sector35> posicion: 35 | <sector36> posicion: 36 | <sector37> posicion: 37 | <sector38> posicion: 38 | <sector39> posicion: 39 | <sector40> posicion: 40 | <sector41> posicion: 41 | <sector42> posicion: 42"];
+vector:sector6 -> nodo631947920TH
+nodo631947920TH[label="No. Reserva: 350\nCosto: 10\nTiempo: 10\nClienteomar\n"];
+vector:sector18 -> nodo1621645377TH
+nodo1621645377TH[label="No. Reserva: 104\nCosto: 10\nTiempo: 10\nClienteomar\n"];
+vector:sector28 -> nodo1510993949TH
+nodo1510993949TH[label="No. Reserva: 200\nCosto: 10\nTiempo: 10\nClienteomar\n"];
+vector:sector36 -> nodo1359118244TH
+nodo1359118244TH[label="No. Reserva: 122\nCosto: 10\nTiempo: 10\nClienteomar\n"];
+}
